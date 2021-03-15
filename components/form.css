@@ -1,0 +1,61 @@
+* {
+    outline : none;
+    text-decoration: none;
+}
+
+.form{
+    width: 396px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+input{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: 2px solid #E4E5E8;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn{
+    width: 90%;
+    height: 45px;
+    background-color: #166FE5;
+    color: white;
+    margin-top: 20px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button{
+    width: 50%;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #36A420;
+    color: white;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sifre{
+    color: blue;
+    margin: 20px 0 ;
+}
+.sifre:hover{
+    text-decoration: underline;
+}
+.page{
+    color: black;
+}
+.page:hover{
+    text-decoration: underline;
+}
